@@ -1,0 +1,6 @@
+framework module MAMapKitDLL {
+  umbrella header "MAMapKitDLL.h"
+
+  export *
+  module * { export * }
+}

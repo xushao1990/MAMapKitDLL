@@ -517,8 +517,10 @@
 		7B5477CA1F3BEF9200E647AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				DEVELOPMENT_TEAM = 2E728EA35C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -534,6 +536,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MAMapKitDLL",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadtrip.MAMapKitDLL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -544,8 +547,10 @@
 		7B5477CB1F3BEF9200E647AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_POSTPROCESSING = NO;
 				DEVELOPMENT_TEAM = 2E728EA35C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -561,6 +566,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MAMapKitDLL",
 				);
+				OTHER_CFLAGS = "-fembed-bitcode";
 				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.breadtrip.MAMapKitDLL;
 				PRODUCT_NAME = "$(TARGET_NAME)";

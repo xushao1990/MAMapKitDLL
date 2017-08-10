@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "MAMapKitDLL"
-  s.version      = "4.6.0"
+  s.version      = "4.6.0.1"
   s.summary      = "MAMapKit Dynamic Library for iOS."
   s.description  = "MAMapKit + AMapFoundationKit Dynamic Library for iOS."
   s.homepage     = "https://github.com/xushao1990/MAMapKitDLL"

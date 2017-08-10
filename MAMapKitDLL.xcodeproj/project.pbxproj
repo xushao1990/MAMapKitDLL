@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B25247A1F3C415E0006185A /* BundleHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2524791F3C415E0006185A /* BundleHook.m */; };
 		7B5477CD1F3BEF9E00E647AB /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5477CC1F3BEF9E00E647AB /* MAMapKit.framework */; };
 		7B5477D31F3BF02000E647AB /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5477D21F3BF02000E647AB /* AMapFoundationKit.framework */; };
 		7B5477D51F3BF58B00E647AB /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B5477D41F3BF58B00E647AB /* AMap.bundle */; };
@@ -72,6 +73,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B2524791F3C415E0006185A /* BundleHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BundleHook.m; sourceTree = "<group>"; };
 		7B5477C11F3BEF9200E647AB /* MAMapKitDLL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAMapKitDLL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5477C51F3BEF9200E647AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B5477CC1F3BEF9E00E647AB /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				7B54793F1F3BFF8300E647AB /* MAMapKitDLL.h */,
+				7B2524791F3C415E0006185A /* BundleHook.m */,
 				7B5478E61F3BFF0E00E647AB /* Headers */,
 				7B5477D41F3BF58B00E647AB /* AMap.bundle */,
 				7B5477D21F3BF02000E647AB /* AMapFoundationKit.framework */,
@@ -410,6 +413,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B25247A1F3C415E0006185A /* BundleHook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

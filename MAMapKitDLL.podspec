@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Tongtong Xu" => "xushao1990@126.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/xushao1990/MAMapKitDLL.git" } #, :tag => "#{s.version}"
+  s.source       = { :git => "https://github.com/xushao1990/MAMapKitDLL.git", :tag => "#{s.version}" }
   s.vendored_frameworks = 'Product/MAMapKitDLL.framework'
 end
